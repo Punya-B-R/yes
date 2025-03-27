@@ -34,7 +34,7 @@
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-### 5. **Configure API Key**  
+### 5. Configure API Key 
    - Get key from [Google AI Studio](https://aistudio.google.com/app/apikey)  
    - Add to `.env`:
      ```text
@@ -45,4 +45,4 @@
    ```bash
    streamlit run app.py
    ```
-   The application will start running at http://127.0.0.1:8501.
+   The application will start running at http://localhost:8501.
