@@ -9,9 +9,8 @@
 
 **Important Note**: This tool provides *informational support only* and should never replace professional medical advice. Always consult a healthcare provider for diagnoses and treatment.  
 
-## 🌟 Live Demo Preview  
+## 🖥️ Interface Preview  
 ![Dr. Sage Interface](https://github.com/Punya-B-R/clinical-ai-agent/blob/master/Screenshot%202025-03-27%20170435.png?raw=true)  
-*Caption explaining key features shown*  
 
 ## 🛠️ Local Setup Guide
 ### 1. **Install Python 3.9+**  
