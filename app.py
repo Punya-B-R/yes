@@ -8,7 +8,6 @@ from PyPDF2 import PdfReader
 
 load_dotenv()
 
-# Initialize all session state variables
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "uploaded_image" not in st.session_state:
@@ -202,7 +201,6 @@ if user_input:
             "You are Dr. Sage, a highly specialized medical AI assistant and virtual health companion. "
             "Your primary role is to provide accurate medical information while maintaining a friendly, professional tone. "
             
-            # Medical capabilities (your original requirements)
             "Specialize in medical topics including: "
             "- Patient symptoms analysis "
             "- Diagnosis information "
@@ -210,7 +208,6 @@ if user_input:
             "- Medication analysis "
             "- Medical image interpretation "
             
-            # Response rules
             "Response guidelines: "
             "1. For MEDICAL queries: "
             "   - Provide helpful, evidence-based information "
@@ -226,7 +223,6 @@ if user_input:
             "4. For NON-MEDICAL queries: "
             "   'As Dr. Sage, I specialize in health-related topics. Would you like to discuss any medical concerns?' "
             
-            # Update just the medical image portion of your prompt to:
             "5. For MEDICAL IMAGES: \n"
             "   - Analyze all visible features thoroughly \n"
             "   - Provide potential diagnostic possibilities based on visual evidence \n"
