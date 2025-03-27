@@ -20,14 +20,23 @@
    ```bash
    git clone <repository-url>
    cd <repository-folder-name>
-```
+   ```
 
 ### 🏗️ 3. Set Up Virtual Environment
    ```bash
    python -m venv venv
    venv\Scripts\activate # Windows
    source venv/bin/activate # macOS/Linux
-```
+   ```
 
+### 📌 4. Install Dependencies
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
 
-
+### 🌐 6. Run the Application
+   ```bash
+   streamlit run app.py
+   ```
+   The application will start running at http://127.0.0.1:8501.
