@@ -15,4 +15,11 @@
    ```bash
    python --version
    ```
-hi
+
+### 🔄 2. Clone the Repository
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder-name>
+```
+
+
