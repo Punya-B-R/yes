@@ -8,3 +8,11 @@
 - 📄 Upload and discuss PDFs/images for instant analysis  
 
 **Important Note**: This tool provides *informational support only* and should never replace professional medical advice. Always consult a healthcare provider for diagnoses and treatment.  
+
+## 🛠️ Local Setup Guide
+1. **Install Python 3.9+**  
+   Download from [python.org](https://www.python.org/downloads/) then verify:
+   ```bash
+   python --version
+   ```
+hi
