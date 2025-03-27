@@ -10,7 +10,7 @@
 **Important Note**: This tool provides *informational support only* and should never replace professional medical advice. Always consult a healthcare provider for diagnoses and treatment.  
 
 ## 🛠️ Local Setup Guide
-### 1. **Install Python 3.9+**  
+### 📦 1. **Install Python 3.9+**  
    Download from [python.org](https://www.python.org/downloads/) then verify:
    ```bash
    python --version
@@ -21,5 +21,13 @@
    git clone <repository-url>
    cd <repository-folder-name>
 ```
+
+### 🏗️ 3. Set Up Virtual Environment
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate # Windows
+   source venv/bin/activate # macOS/Linux
+```
+
 
 
