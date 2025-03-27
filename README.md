@@ -34,7 +34,13 @@
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-
+### 5. **Configure API Key**  
+   - Get key from [Google AI Studio](https://aistudio.google.com/app/apikey)  
+   - Add to `.env`:
+     ```text
+     GEMINI_API_KEY="YOUR_API_KEY"  # Paste your key here
+     ```
+     
 ### 6. Run the Application
    ```bash
    streamlit run app.py
